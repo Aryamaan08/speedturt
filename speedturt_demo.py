@@ -1,5 +1,5 @@
 import speedturt
 
-speedturt.turtle_shape()
+speedturt.t_s()
 speedturt.tps()
 speedturt.circle()
