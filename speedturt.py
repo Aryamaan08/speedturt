@@ -31,11 +31,17 @@ def triangle_shape():
     t.shape('triangle')
 def arrow_shape():
     t.shape('arrow')
-def bg(hex):
-    turtle.Screen().bgcol(hex)
-def tc(hex):
-    t.color(hex)
-def tpc(hex):
-    t.pencolor(hex)
+def line(x, y, dx, dy):
+    t.penup()
+    t.goto(x, y)
+    t.pendown(dx, dy)
+def size(w, h):
+    turtle.Screen().setup(width=w, height=h)
+def bg(value):
+    turtle.Screen().bgcol(value)
+def tc(value):
+    t.color(value)
+def tpc(value):
+    t.pencolor(value)
 def tps(size=5):
     t.pensize(size)
