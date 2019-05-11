@@ -1,3 +1,5 @@
+# (C) Aryamaan Goswamy 2019
+# Speedturt- Making using turtle a breeze.
 import turtle
 
 t = turtle.Turtle()
